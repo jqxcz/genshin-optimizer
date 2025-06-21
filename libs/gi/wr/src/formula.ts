@@ -181,6 +181,7 @@ const allNonModStats = [
   ]),
   'swirl_dmgInc' as const,
   'all_dmgInc' as const,
+  'dmgIncPct_' as const,
   ...allEleEnemyResKeys,
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,
@@ -502,7 +503,8 @@ const common: Data = {
                 : total[`${move}_dmgInc`]
             ),
             NaN
-          )
+          ),
+          prod(total.atk, total.dmgIncPct_),
         ),
         { ...info('dmgInc'), pivot }
       ),

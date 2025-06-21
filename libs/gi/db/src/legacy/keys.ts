@@ -99,6 +99,7 @@ const allNonModStats = [
     `${x}_critDMG_` as const,
   ]),
   'all_dmgInc' as const,
+  'dmgIncPct_' as const,
   ...allEleEnemyResKeys,
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,

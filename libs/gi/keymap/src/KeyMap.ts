@@ -38,6 +38,7 @@ const baseMap = {
   dmgInc: 'Total DMG Increase',
   all_dmg_: 'Common DMG Bonus',
   all_dmgInc: 'Common DMG Increase',
+  dmgIncPct_: 'Common DMG Increase % (of ATK)',
   weakspotDMG_: 'Weakspot DMG',
   incHeal_: 'Incoming Healing Bonus',
   shield_: 'Shield Strength',

@@ -423,6 +423,7 @@ const inputPremodKeyToGroupMap: Record<InputPremodKey, GroupKey> = {
   weakspotDMG_: 'misc',
   dmgRed_: 'misc',
   healInc: 'misc',
+  dmgIncPct_: 'misc',
   base_atk: 'base_stat_mod',
   base_hp: 'base_stat_mod',
   base_def: 'base_stat_mod',
