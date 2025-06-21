@@ -243,14 +243,6 @@ function TeamEditor({
             dataContextValue={dataContextValue}
           />
         </Grid>
-        <Grid item xs={1}>
-          <AdResponsive
-            bgt="light"
-            dataAdSlot="5102492054"
-            maxHeight={400}
-            Ad={GOAdWrapper}
-          />
-        </Grid>
       </Grid>
       <Alert severity="info">
         <Trans t={t} i18nKey={'teamSettings.alert.first'}>

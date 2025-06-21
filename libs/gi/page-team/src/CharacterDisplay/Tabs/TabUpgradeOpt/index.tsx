@@ -520,11 +520,6 @@ export default function TabUpopt() {
                     onClick={() => setArtifactIdToEdit('new')}
                   />
                   <StatFilterCard disabled={false} />
-                  <AdResponsive
-                    bgt="light"
-                    dataAdSlot="3955015620"
-                    Ad={GOAdWrapper}
-                  />
                 </Grid>
               </Grid>
             </Box>

@@ -652,7 +652,6 @@ export default function TabBuild() {
 
           {/*Minimum Final Stat Filter */}
           <StatFilterCard disabled={generatingBuilds} />
-          <AdResponsive dataAdSlot="7724855772" bgt="light" Ad={GOAdWrapper} />
         </Grid>
       </Grid>
       {/* Footer */}

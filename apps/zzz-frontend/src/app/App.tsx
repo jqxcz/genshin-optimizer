@@ -43,9 +43,7 @@ export default function App() {
         <CssBaseline enableColorScheme />
         <DatabaseProvider>
           <HashRouter basename="/">
-            <AdBlockContextWrapper>
-              <Content />
-            </AdBlockContextWrapper>
+            <Content />
             <ScrollTop />
           </HashRouter>
         </DatabaseProvider>

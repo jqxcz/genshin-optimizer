@@ -68,7 +68,7 @@ export default defineConfig(() => ({
 
   define: {
     'process.env': process.env,
-    __VERSION__: `"${pkg.version}"`,
+    __VERSION__: `"custom"`,
   },
 
   // Uncomment this if you are using workers.
